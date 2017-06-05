@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios Kegel para hombres</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+  <button onclick="empezar()">START</button>
+  <button onclick="acabar()">STOP</button>
+  <div id="instructions" class="center"></div>
+  <div class="time"></div>
+</body>
+<style>
+  .center{
+    width: 80%;
+    height: 200px;
+    background: red;
+    margin:0 auto;
+  }
+</style>
+<script>
+  /******************
+Variables
+******************/
+
+var interval_tiempo = null,
+interval_series = null,
+interval_ejercicio = null;
+
+/******************
+Órdenes básicas
+******************/
+function acabar(){
+  $('#instructions').css('background','black');
+  $('.time').text("Ejercicio finalizado");
+  if(interval_tiempo !== null)
+    clearInterval(interval_tiempo);
+  if(interval_series !== null)
+    clearInterval(interval_series);
+  if(interval_ejercicio !== null)
+    clearInterval(interval_ejercicio);
+}
+
+function contar_tiempo(){
+  var tiempo_transcurrido = 0;
+  interval_tiempo = setInterval(function(){
+    tiempo_transcurrido++;
+    $('.time').text(tiempo_transcurrido);
+  }, 1000);
+}
+
+function contraer(orden){
+  orden.css('background','green');
+  orden.text('CONTRAER');
+}
+
+function descansar(orden){
+  orden.css('background','blue');
+  orden.text('DESCANSAR');
+}
+
+function preparate(orden){
+  orden.css('background','blue');
+  orden.text('PREPARATE');
+}
+
+/***********************
+Rútina de ejercicios
+***********************/
+
+function get_total_time(pasos){
+  keys = Object.keys(pasos);
+  if (keys !== undefined)
+    return keys[keys.length - 1];
+  return -1;
+}
+
+function empezar(){
+  preparate($('#instructions'));
+  var ejercicio = new Object();
+  ejercicio.codigo = "3_3";
+  ejercicio.tiempo_preparacion = 3;
+  ejercicio.repeticiones = 3;
+    // ejercicio.tiempo_total = 6;
+    ejercicio.pasos =
+    {
+      0: "contraer",
+      15: "descansar",
+      25: "finalizar"
+    };
+
+    ejercicio.tiempo_total = get_total_time(ejercicio.pasos);
+    setTimeout(function(){
+      contar_tiempo();
+
+      console.log("TOTAL DE UN EJERCICIO: " + ejercicio.tiempo_total);
+      var series_realizadas = 0;
+    // Hacer la primera vez
+    series_realizadas++;
+    console.log("EMPEZANDO SERIE: " + series_realizadas);
+    hacer_una_vez(ejercicio);
+    console.log("ACABANDO SERIE: " + series_realizadas);
+    // Empezar con el bucle
+    var internal_interval_series = setInterval(function(){
+      if(series_realizadas === ejercicio.repeticiones){
+        console.log("ACABANDO EJERCICIO");
+        setTimeout(acabar(), 2000);
+        clearInterval(internal_interval_series);
+        clearInterval(interval_tiempo);
+      }else{
+        series_realizadas++;
+        console.log("EMPEZANDO SERIE: " + series_realizadas);
+        hacer_una_vez(ejercicio);
+        console.log("ACABANDO SERIE: " + series_realizadas);
+      }
+    }, ejercicio.tiempo_total * 1000);
+    interval_series = internal_interval_series;
+  }, ejercicio.tiempo_preparacion * 1000);
+  }
+
+  function hacer_una_vez(ejercicio){
+    var tiempo_de_ejercicio = 0;
+    var internal_interval_ejercicio = setInterval(function(){
+      if(undefined !== ejercicio.pasos[tiempo_de_ejercicio])
+      {
+        switch(ejercicio.pasos[tiempo_de_ejercicio])
+        {
+          case "preparar":
+          preparate($('#instructions'));
+          break;
+
+          case "contraer":
+          contraer($('#instructions'));
+          break;
+
+          case "descansar":
+          descansar($('#instructions'));
+          break;
+
+          case "finalizar":
+          clearInterval(internal_interval_ejercicio);
+          break;
+        }
+      }
+
+      tiempo_de_ejercicio++;
+    }, 1000);
+    interval_ejercicio = internal_interval_ejercicio;
+  }
+
+</script>
+</html>
