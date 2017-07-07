@@ -1,0 +1,367 @@
+[
+  {
+    "code" : "1_1",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 60,
+    "description": "Uno de los ejercicios básicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 1 segundo y relajar durante 5 segundos.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 60 segundos",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "6": "finalizar"
+    }
+  },
+  {
+    "code" : "1_4",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 120,
+    "description": "Uno de los ejercicios básicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 2 segundos y relajar durante 4 segundos, una
+    vez realizada esta parte contraer 1 segundo y descansar 5.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 120 segundos",
+    "steps" : {
+      "0": "contraer",
+      "2": "descanso",
+      "6": "contraer",
+      "7": "descanso",
+      "12": "finalizar"
+    }
+  },
+  {
+    "code" : "1_5",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 50,
+    "description": "Uno de los ejercicios básicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 2 segundos y relajar durante 3 segundos.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 50 segundos",
+    "steps" : {
+      "0": "contraer",
+      "2": "descanso",
+      "5": "finalizar"
+    }
+  },
+  {
+    "code" : "1_6",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 40,
+    "description": "Uno de los ejercicios básicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 2 segundos y relajar durante 2 segundos.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 40 segundos",
+    "steps" : {
+      "0": "contraer",
+      "2": "descanso",
+      "4": "finalizar"
+    }
+  },
+  {
+    "code" : "1_8",
+    "preparation": 3,
+    "repeat" : 5,
+    "total_time" : 50,
+    "description": "Uno de los ejercicios básicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 3 segundos y relajar durante 3 segundos, una
+    vez realizada esta parte contraer 1 segundo y descansar 3.
+    \r\nEl ejercicio va a constar de 5 repeticiones con una duración total de 50 segundos",
+    "steps" : {
+      "0": "contraer",
+      "3": "descanso",
+      "6": "contraer",
+      "7": "descanso",
+      "10": "finalizar"
+    }
+  },
+  {
+    "code" : "1_9",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 40,
+    "description": "Uno de los ejercicios básicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 1 segundo y relajar durante 3 segundos.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 40 segundos",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "4": "finalizar"
+    }
+  },
+  {
+    "code" : "2_1",
+    "preparation": 3,
+    "repeat" : 6,
+    "total_time" : 66,
+    "description": "Uno de los ejercicios intermedios de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos una y otra vez durante 7 segundos y relajar
+    durante 4 segundos.
+    \r\nEl ejercicio va a constar de 6 repeticiones con una duración total de 66 segundos",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "2": "contraer",
+      "3": "descanso",
+      "4": "contraer",
+      "5": "descanso",
+      "6": "contraer",
+      "7": "descanso",
+      "11": "finalizar"
+    }
+  },
+  {
+    "code" : "2_2",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 80,
+    "description": "Uno de los ejercicios intermedios de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos una y otra vez durante 5 segundos y relajar
+    durante 3 segundos.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 80 segundos",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "2": "contraer",
+      "3": "descanso",
+      "4": "contraer",
+      "5": "descanso",
+      "8": "finalizar"
+    }
+  },
+  {
+    "code" : "2_3",
+    "preparation": 3,
+    "repeat" : 3,
+    "total_time" : 75,
+    "description": "Uno de los ejercicios intermedios de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 10 segundos y relajar
+    durante 15 segundos.
+    \r\nEl ejercicio va a constar de 3 repeticiones con una duración total de 75 segundos",
+    "steps" : {
+      "0": "contraer",
+      "10": "descanso",
+      "25": "finalizar"
+    }
+  },
+  {
+    "code" : "3_1",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 100,
+    "description": "Uno de los ejercicios intermedios de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 5 segundos y relajar
+    durante 5 segundos.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 100 segundos",
+    "steps" : {
+      "0": "contraer",
+      "5": "descanso",
+      "10": "finalizar"
+    }
+  },
+  {
+    "code" : "3_2",
+    "preparation": 3,
+    "repeat" : 10,
+    "total_time" : 90,
+    "description": "Uno de los ejercicios intermedios de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos una y otra vez durante 7 segundos y relajar
+    durante 2 segundos.
+    \r\nEl ejercicio va a constar de 10 repeticiones con una duración total de 90 segundos",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "2": "contraer",
+      "3": "descanso",
+      "4": "contraer",
+      "5": "descanso",
+      "6": "contraer",
+      "7": "descanso",
+      "9": "finalizar"
+    }
+  },
+  {
+    "code" : "3_3",
+    "preparation": 3,
+    "repeat" : 3,
+    "total_time" : 75,
+    "description": "Uno de los ejercicios intermedios de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 15 segundos y relajar
+    durante 10 segundos.
+    \r\nEl ejercicio va a constar de 3 repeticiones con una duración total de 75 segundos",
+    "steps" : {
+      "0": "contraer",
+      "15": "descanso",
+      "25": "finalizar"
+    }
+  },
+  {
+    "code" : "4_1",
+    "preparation": 3,
+    "repeat" : 12,
+    "total_time" : 108,
+    "description": "Uno de los ejercicios avanzados de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos una y otra vez durante 7 segundos y relajar
+    durante 2 segundos.
+    \r\nEl ejercicio va a constar de 12 repeticiones con una duración total de 108 segundos",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "2": "contraer",
+      "3": "descanso",
+      "4": "contraer",
+      "5": "descanso",
+      "6": "contraer",
+      "7": "descanso",
+      "9": "finalizar"
+    }
+  },
+  {
+    "code" : "4_2",
+    "preparation": 3,
+    "repeat" : 12,
+    "total_time" : 120,
+    "description": "Uno de los ejercicios avanzados de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 5 segundos y relajar
+    durante 5 segundos.
+    \r\nEl ejercicio va a constar de 12 repeticiones con una duración total de 120 segundos",
+    "steps" : {
+      "0": "contraer",
+      "5": "descanso",
+      "10": "finalizar"
+    }
+  },
+  {
+    "code" : "4_3",
+    "preparation": 3,
+    "repeat" : 5,
+    "total_time" : 250,
+    "description": "Uno de los ejercicios avanzados de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 25 segundos y relajar
+    durante 25 segundos.
+    \r\nEl ejercicio va a constar de 5 repeticiones con una duración total de 250 segundos",
+    "steps" : {
+      "0": "contraer",
+      "25": "descanso",
+      "50": "finalizar"
+    }
+  },
+  {
+    "code" : "C_A",
+    "preparation": 3,
+    "repeat" : 100,
+    "total_time" : 200,
+    "description": "Uno de los ejercicios cíclicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 1 segundo y relajar
+    durante 1 segundo.
+    \r\nEl ejercicio estará en funcionamiento durante 100 repeticiones,
+    pero te puedes sentir libre de parar cuando estés cansado.
+    Este tipo de ejercicios son cíclicos y se recomienda realizar de una manera similar a los anteriores
+    con rutinas de un máximo de 15 repeticiones.",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "2": "finalizar"
+    }
+  },
+  {
+    "code" : "C_B",
+    "preparation": 3,
+    "repeat" : 100,
+    "total_time" : 600,
+    "description": "Uno de los ejercicios cíclicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 3 segundos y relajar
+    durante 3 segundos.
+    \r\nEl ejercicio estará en funcionamiento durante 100 repeticiones,
+    pero te puedes sentir libre de parar cuando estés cansado.
+    Este tipo de ejercicios son cíclicos y se recomienda realizar de una manera similar a los anteriores
+    con rutinas de un máximo de 15 repeticiones.",
+    "steps" : {
+      "0": "contraer",
+      "3": "descanso",
+      "6": "finalizar"
+    }
+  },
+  {
+    "code" : "C_C",
+    "preparation": 3,
+    "repeat" : 100,
+    "total_time" : 1000,
+    "description": "Uno de los ejercicios cíclicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 5 segundos y relajar
+    durante 5 segundos.
+    \r\nEl ejercicio estará en funcionamiento durante 100 repeticiones,
+    pero te puedes sentir libre de parar cuando estés cansado.
+    Este tipo de ejercicios son cíclicos y se recomienda realizar de una manera similar a los anteriores
+    con rutinas de un máximo de 15 repeticiones.",
+    "steps" : {
+      "0": "contraer",
+      "5": "descanso",
+      "10": "finalizar"
+    }
+  },
+  {
+    "code" : "C_D",
+    "preparation": 3,
+    "repeat" : 100,
+    "total_time" : 600,
+    "description": "Uno de los ejercicios cíclicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 1 segundo y relajar
+    durante 1 segundo, a continuación, contraer 3 y descansar 1.
+    \r\nEl ejercicio estará en funcionamiento durante 100 repeticiones,
+    pero te puedes sentir libre de parar cuando estés cansado.
+    Este tipo de ejercicios son cíclicos y se recomienda realizar de una manera similar a los anteriores
+    con rutinas de un máximo de 15 repeticiones.",
+    "steps" : {
+      "0": "contraer",
+      "1": "descanso",
+      "2": "contraer",
+      "5": "descanso",
+      "6": "finalizar"
+    }
+  },
+  {
+    "code" : "C_E",
+    "preparation": 3,
+    "repeat" : 100,
+    "total_time" : 2200,
+    "description": "Uno de los ejercicios cíclicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 2 segundos y relajar durante 2 segundos,
+    a continuación, contraer 3 y descansar 2,
+    a continuación, contraer 4 y descansar 2,
+    a continuación, contraer 5 y descansar 2.
+    \r\nEl ejercicio estará en funcionamiento durante 100 repeticiones,
+    pero te puedes sentir libre de parar cuando estés cansado.
+    Este tipo de ejercicios son cíclicos y se recomienda realizar de una manera similar a los anteriores
+    con rutinas de un máximo de 15 repeticiones.",
+    "steps" : {
+      "0": "contraer",
+      "2" : "descansar",
+      "4" : "contraer",
+      "7" : "descansar",
+      "9" : "contraer",
+      "13" : "descansar",
+      "15" : "contraer",
+      "20" : "descansar",
+      "22" : "finalizar"
+    }
+  },
+  {
+    "code" : "C_F",
+    "preparation": 3,
+    "repeat" : 100,
+    "total_time" : 1500,
+    "description": "Uno de los ejercicios cíclicos de KEGEL para hombres.
+    El ejercicio consiste en contraer los músculos durante 10 segundos y relajar
+    durante 5 segundos.
+    \r\nEl ejercicio estará en funcionamiento durante 100 repeticiones,
+    pero te puedes sentir libre de parar cuando estés cansado.
+    Este tipo de ejercicios son cíclicos y se recomienda realizar de una manera similar a los anteriores
+    con rutinas de un máximo de 15 repeticiones.",
+    "steps" : {
+      "0": "contraer",
+      "10": "descanso",
+      "15": "finalizar"
+    }
+  }
+]
