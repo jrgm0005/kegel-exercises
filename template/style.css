@@ -1,0 +1,181 @@
+html, body
+{
+  height: 101%;
+  font-size: 10px;
+}
+
+header, footer{
+  display: block;
+  padding: 0 1rem;
+  margin: 1rem 1rem 0 1rem;
+}
+
+.fleft{
+  float: left;
+}
+
+.margin5pc{
+  margin: 10px;
+}
+
+.container{
+  max-width: 1250px;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+/* HEADER */
+
+.title{
+  font-size: 2.2rem;
+  text-align: center;
+  margin: 1rem;
+  word-wrap: break-word;
+}
+
+/* FOOTER */
+
+footer{
+  text-align: center;
+  margin: 5%;
+}
+
+/* box css con doble cara (efecto girar una carta) */
+.box-doble-cara {
+  margin: 5% 0;
+  position: relative;
+  perspective: 100rem;
+}
+
+.box {
+  transform-style: preserve-3d;
+}
+
+.box-doble-cara:hover .box {
+  transform: rotateY(180deg);
+}
+.cara {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.cara.detras {
+  transform: rotateY(180deg);
+}
+
+/* tamanos */
+
+.tiny-size{
+  width: 3rem;
+  height: 3rem;
+}
+
+.medium-size{
+  width: 25rem;
+  height: 25rem;
+}
+
+.full-size{
+  width: 100%;
+  height: 25rem;
+}
+
+/* botones */
+
+.button{
+  padding: 2.5rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 2px;
+  outline: 0;
+}
+
+.btn {
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  border-radius: 1.5rem;
+  border: solid orange 2px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  /*font-family: Georgia;*/
+  color: #fff;
+  font-size: 2rem;
+  background: #0f0;
+  padding: 1.5rem 2rem;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-green{
+  background: green;
+  color: white;
+}
+
+/* Instrucciones de ejercicio */
+
+.div-instrucciones{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+}
+
+.contraer{
+  border: 0.7rem solid green;
+}
+
+.relajar{
+  border: 0.7rem solid red;
+}
+
+/* círculos de repeticiones */
+
+.circle-green{
+  background: green;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.circle-red{
+  background:red;
+  border: 2px solid orange;
+  border-radius: 50%;
+}
+
+
+.exercise_replay_circles{
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* Transitions */
+
+.transition-normal{
+  transition: all 0.5s linear;
+}
+
+.transition-fast{
+  transition: all 0.25s linear;
+}
+
+.transition-slow{
+  transition: all 1s linear;
+}
